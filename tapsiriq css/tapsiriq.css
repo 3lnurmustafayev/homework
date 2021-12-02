@@ -1,0 +1,29 @@
+body{
+    background-color:brgb(62, 30, 92)
+}
+.class1 {
+    color: brown;
+}
+.class2{
+    color: blue;
+}
+.class3{
+    color: cadetblue;
+}
+
+p{
+    font-size: large;
+    font-style: italic;
+    align-self: start;
+
+}
+div{
+    text-align: center;
+    margin: 250px;
+  
+}
+p{
+    text-decoration-color:blue;
+    text-align: justify;
+    background-color: crimson;
+}
