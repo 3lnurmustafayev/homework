@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.section2 a {
+  font-size: 24px;
+  color: white;
+  &:hover {
+    color: #059cfe;
+  }
+}
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid blanchedalmond;
+  padding-bottom: 25px;
+  
+
+  background-color: #060606;
+  .container {
+    width: 90%;
+    //height: 277px;
+    background-color: #060606;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .box1 {
+      width: 409px;
+      height: 252px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      // burani eliye bilmedim
+      // transform: translateY(-10);
+      // &:hover{
+      //     color: antiquewhite;
+      // }
+
+      .img1 {
+        //width: 150px;
+        //height: 250px;
+        padding: 20px;
+        background-color: #011726;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        svg {
+          width: 50px;
+          height: 50px;
+          color: #059cfe;
+        }
+      }
+      .write1 {
+        h3{
+          text-align: center;
+          margin: 20px 0px;
+        a {
+          width: 189px;
+          height: 30px;
+          font-size: 24px;
+          color: #ffffff;
+          text-align: center;
+          transition: all 0.3s;
+          transform: translateY(-10);
+          &:hover {
+            color: #059cfe;
+          }
+        }
+      }
+        p {
+          width: 280px;
+          height: 120px;
+          color: #ffffff;
+          font-size: 18px;
+          text-align: center;
+          line-height: 1.67;
+        }
+      }
+    }
+    .box2 {
+      width: 409px;
+      height: 252px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .img2 {
+        padding: 20px;
+        width: 90px;
+        height: 90px;
+        background-color: #180301;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        svg {
+          width: 50px;
+          height: 50px;
+          color: #5f1b15;
+        }
+      }
+     .write2{
+       h3{
+         text-align: center;
+         margin: 20px 0px;
+         a{
+          width: 189px;
+          height: 30px;
+          font-size: 24px;
+          color: #ffffff;
+          text-align: center;
+          transition: all 0.3s;
+          transform: translateY(-10);
+          &:hover {
+            color: #059cfe;
+          }
+         }
+       }
+      p {
+        width: 280px;
+        height: 120px;
+        color: #ffffff;
+        font-size: 18px;
+        text-align: center;
+        line-height: 1.67;
+      }
+    }
+    }
+    .box3 {
+      width: 409px;
+      height: 252px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .img3 {
+        padding: 20px;
+        width: 90px;
+        height: 90px;
+        background-color: #140a3f;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        svg {
+          width: 50px;
+          height: 50px;
+          color: #5038af;
+        }
+      }
+      .write3{
+        h3{
+          text-align: center;
+          margin: 20px 0px;
+          a{
+           width: 189px;
+           height: 30px;
+           font-size: 24px;
+           color: #ffffff;
+           text-align: center;
+           transition: all 0.3s;
+           transform: translateY(-10);
+           &:hover {
+             color: #059cfe;
+           }
+          }
+        }
+        
+      p {
+        width: 280px;
+        height: 120px;
+        color: #ffffff;
+        font-size: 18px;
+        text-align: center;
+        line-height: 1.67;
+      }
+    }
+    }
+  }
+}
+.boxs{
+  transition: all .5s;
+  &:hover{
+    transform: translateY(-10px);
+  }
+}

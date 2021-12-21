@@ -1,0 +1,148 @@
+// ara mesafesini duzeltmek
+// hover elemek 
+
+
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #060606;
+    
+    li{
+        list-style: none;
+        
+    }
+    a{
+        text-decoration: none;
+    }
+    .container{
+        width: 90%;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .title{
+        width: 1110px;
+        // background-color: rgb(17, 17, 17);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        
+        ul{
+            display: flex;
+
+            li{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            padding: 0 5px;
+            color:#D5EFFF ;
+            
+            .list1{
+                color:#D5EFFF;
+                width:61px ;
+                height:41px ;
+                font-size: 18px;
+                background-color:#060606;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                border: 1px;
+                border-radius: 5px;
+                &:hover{
+                    color: #fff;
+                    background-color: #059DFF
+                }
+                
+            }
+            .list2{
+                color: #D5EFFF;
+                width:99px ;
+                height:41px ;
+                background-color:#060606 ;
+                font-size: 18px;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                border: 1px;
+                border-radius: 5px;
+                &:hover{
+                    color: #fff;
+                    background-color: #059DFF
+                }
+                
+            }
+            .list3{
+                color: #D5EFFF;
+                width:66px ;
+                height:41px ;
+                background-color:#060606 ;
+                font-size: 18px;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                border: 1px;
+                border-radius: 5px;
+                transition: all .3s;
+                &:hover{
+                    color: #fff;
+                    background-color: #059DFF;
+                }
+            }
+            .list4{
+                color: #fff;
+                width:152px ;
+                height:41px ;
+                background-color: #060606;
+                font-size: 18px;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                border: 1px;
+                border-radius: 5px;
+                transition: all .3s;
+                &:hover{
+                    color: #fff;
+                    background-color: #059DFF;
+                }
+            }
+         }
+        }
+        
+        h4{
+            color: #fff;
+            font-size: 16px;
+            width: 174px;
+            height: 32px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #060606 ;
+            margin-bottom:25px;
+            .gradient{
+                font-size: inherit;
+            background: linear-gradient(95deg ,#059dff 15%,#6549d5 45%,#e33fa1 75%,#fb5343) 95%/200% 100%;
+            -webkit-background-clip: text;
+            color: transparent;
+
+            }
+
+        }
+        h2{
+            font-size: 44px;
+            color:#f8f8f8;
+            margin-bottom: 25px;
+        }
+        p{
+            width: 400px;
+            font-size: 18px;
+            color: #AAAAAA;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+    }
+}
